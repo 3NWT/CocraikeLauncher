@@ -4,4 +4,4 @@ Basically PrismLauncher but its cracked.
 
 **Compiling**
 
-Execute kokain.sh to compile. (Install dependencies for PrismLauncher before trying to compile.)
+Execute kokain.sh as root to compile. (Install dependencies for PrismLauncher before trying to compile.)
