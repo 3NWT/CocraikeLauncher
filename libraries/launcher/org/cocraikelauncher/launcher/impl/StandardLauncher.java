@@ -52,12 +52,12 @@
  *      limitations under the License.
  */
 
-package org.prismlauncher.launcher.impl;
+package org.cocraikelauncher.launcher.impl;
 
 import java.lang.invoke.MethodHandle;
 
-import org.prismlauncher.utils.Parameters;
-import org.prismlauncher.utils.ReflectionUtils;
+import org.cocraikelauncher.utils.Parameters;
+import org.cocraikelauncher.utils.ReflectionUtils;
 
 public final class StandardLauncher extends AbstractLauncher {
 

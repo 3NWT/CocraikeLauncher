@@ -1,14 +1,14 @@
-prismlauncher(6)
+cocraikelauncher(6)
 
 
 # NAME
 
-prismlauncher - a launcher and instance manager for Minecraft.
+cocraikelauncher - a launcher and instance manager for Minecraft.
 
 
 # SYNOPSIS
 
-*prismlauncher* [OPTIONS...]
+*cocraikelauncher* [OPTIONS...]
 
 
 # DESCRIPTION
@@ -73,7 +73,7 @@ https://github.com/CocraikeLauncher/CocraikeLauncher/issues
 
 # RESOURCES
 
-GitHub: https://github.com/CocraikeLauncher/CocraikeLauncher
+GitHub: https://github.com/3NWT/CocraikeLauncher
 
 Main website: https://prismlauncher.org
 

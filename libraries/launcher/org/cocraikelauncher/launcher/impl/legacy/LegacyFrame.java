@@ -52,7 +52,7 @@
  *      limitations under the License.
  */
 
-package org.prismlauncher.launcher.impl.legacy;
+package org.cocraikelauncher.launcher.impl.legacy;
 
 import java.applet.Applet;
 import java.awt.Dimension;
@@ -70,7 +70,7 @@ import java.util.List;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
-import org.prismlauncher.utils.logging.Log;
+import org.cocraikelauncher.utils.logging.Log;
 
 import net.minecraft.Launcher;
 

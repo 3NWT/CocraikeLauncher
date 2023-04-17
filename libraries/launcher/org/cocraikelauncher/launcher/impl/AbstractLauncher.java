@@ -52,14 +52,14 @@
  *      limitations under the License.
  */
 
-package org.prismlauncher.launcher.impl;
+package org.cocraikelauncher.launcher.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.prismlauncher.exception.ParseException;
-import org.prismlauncher.launcher.Launcher;
-import org.prismlauncher.utils.Parameters;
+import org.cocraikelauncher.exception.ParseException;
+import org.cocraikelauncher.launcher.Launcher;
+import org.cocraikelauncher.utils.Parameters;
 
 public abstract class AbstractLauncher implements Launcher {
 

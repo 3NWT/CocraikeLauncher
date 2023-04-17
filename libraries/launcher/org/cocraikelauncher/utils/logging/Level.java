@@ -33,7 +33,7 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.prismlauncher.utils.logging;
+package org.cocraikelauncher.utils.logging;
 
 public enum Level {
     LAUNCHER("Launcher"),

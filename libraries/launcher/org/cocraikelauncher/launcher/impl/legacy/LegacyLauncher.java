@@ -53,7 +53,7 @@
  *      limitations under the License.
  */
 
-package org.prismlauncher.launcher.impl.legacy;
+package org.cocraikelauncher.launcher.impl.legacy;
 
 import java.io.File;
 import java.lang.invoke.MethodHandle;
@@ -61,10 +61,10 @@ import java.lang.reflect.Field;
 import java.util.Collections;
 import java.util.List;
 
-import org.prismlauncher.launcher.impl.AbstractLauncher;
-import org.prismlauncher.utils.Parameters;
-import org.prismlauncher.utils.ReflectionUtils;
-import org.prismlauncher.utils.logging.Log;
+import org.cocraikelauncher.launcher.impl.AbstractLauncher;
+import org.cocraikelauncher.utils.Parameters;
+import org.cocraikelauncher.utils.ReflectionUtils;
+import org.cocraikelauncher.utils.logging.Log;
 
 /**
  * Used to launch old versions that support applets.

@@ -52,7 +52,7 @@
  *      limitations under the License.
  */
 
-package org.prismlauncher.utils;
+package org.cocraikelauncher.utils;
 
 import java.applet.Applet;
 import java.io.File;
@@ -62,7 +62,7 @@ import java.lang.invoke.MethodType;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-import org.prismlauncher.utils.logging.Log;
+import org.cocraikelauncher.utils.logging.Log;
 
 public final class ReflectionUtils {
 

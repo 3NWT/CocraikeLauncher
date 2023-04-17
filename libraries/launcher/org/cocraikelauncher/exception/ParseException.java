@@ -35,7 +35,7 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.prismlauncher.exception;
+package org.cocraikelauncher.exception;
 
 public final class ParseException extends IllegalArgumentException {
 

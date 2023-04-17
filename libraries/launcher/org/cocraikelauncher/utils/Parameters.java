@@ -52,14 +52,14 @@
  *      limitations under the License.
  */
 
-package org.prismlauncher.utils;
+package org.cocraikelauncher.utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.prismlauncher.exception.ParameterNotFoundException;
+import org.cocraikelauncher.exception.ParameterNotFoundException;
 
 public final class Parameters {
 
