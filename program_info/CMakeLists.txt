@@ -19,7 +19,7 @@ set(Launcher_Copyright "Cocraike Launcher Contributors\\n© 2021-2022 PolyMC Con
 set(Launcher_Copyright_Mac "Cocraike Launcher Contributors, © 2021-2022 PolyMC Contributors and © 2012-2021 MultiMC
 Contributors" PARENT_SCOPE)
 set(Launcher_Copyright "${Launcher_Copyright}" PARENT_SCOPE)
-set(Launcher_Domain "cocraikelauncher.org" PARENT_SCOPE)
+set(Launcher_Domain "prismlauncher.org" PARENT_SCOPE)
 set(Launcher_UserAgent "${Launcher_CommonName}/${Launcher_VERSION_NAME}" PARENT_SCOPE)
 set(Launcher_ConfigFile "cocraikelauncher.cfg" PARENT_SCOPE)
 set(Launcher_Git "https://github.com/3NWT/CocraikeLauncher" PARENT_SCOPE)

@@ -133,9 +133,9 @@ endif()
 ##################################### Set Application options #####################################
 
 ######## Set URLs ########
-set(Launcher_NEWS_RSS_URL "https://cocraikelauncher.org/feed/feed.xml" CACHE STRING "URL to fetch Cocraike Launcher's news RSS feed from.")
-set(Launcher_NEWS_OPEN_URL "https://cocraikelauncher.org/news" CACHE STRING "URL that gets opened when the user clicks 'More News'")
-set(Launcher_HELP_URL "https://cocraikelauncher.org/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help")
+set(Launcher_NEWS_RSS_URL "https://prismlauncher.org/feed/feed.xml" CACHE STRING "URL to fetch Cocraike Launcher's news RSS feed from.")
+set(Launcher_NEWS_OPEN_URL "https://prismlauncher.org/news" CACHE STRING "URL that gets opened when the user clicks 'More News'")
+set(Launcher_HELP_URL "https://prismlauncher.org/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help")
 
 ######## Set version numbers ########
 set(Launcher_VERSION_MAJOR 7)
@@ -152,7 +152,7 @@ set(Launcher_BUILD_PLATFORM "" CACHE STRING "A short string identifying the plat
 set(Launcher_UPDATER_BASE "" CACHE STRING "Base URL for the updater.")
 
 # The metadata server
-set(Launcher_META_URL "https://meta.cocraikelauncher.org/v1/" CACHE STRING "URL to fetch Launcher's meta files from.")
+set(Launcher_META_URL "https://meta.prismlauncher.org/v1/" CACHE STRING "URL to fetch Launcher's meta files from.")
 
 # Imgur API Client ID
 set(Launcher_IMGUR_CLIENT_ID "5b97b0713fba4a3" CACHE STRING "Client ID you can get from Imgur when you register an application")
@@ -312,7 +312,7 @@ if(UNIX AND APPLE)
     set(MACOSX_BUNDLE_ICON_FILE ${Launcher_Name}.icns)
     set(MACOSX_BUNDLE_COPYRIGHT "© 2022 ${Launcher_Copyright_Mac}")
     set(MACOSX_SPARKLE_UPDATE_PUBLIC_KEY "v55ZWWD6QlPoXGV6VLzOTZxZUggWeE51X8cRQyQh6vA=")
-    set(MACOSX_SPARKLE_UPDATE_FEED_URL "https://cocraikelauncher.org/feed/appcast.xml")
+    set(MACOSX_SPARKLE_UPDATE_FEED_URL "https://prismlauncher.org/feed/appcast.xml")
 
     set(MACOSX_SPARKLE_DOWNLOAD_URL "https://github.com/sparkle-project/Sparkle/releases/download/2.1.0/Sparkle-2.1.0.tar.xz" CACHE STRING "URL to Sparkle release archive")
     set(MACOSX_SPARKLE_SHA256 "bf6ac1caa9f8d321d5784859c88da874f28412f37fb327bc21b7b14c5d61ef94" CACHE STRING "SHA256 checksum for Sparkle release archive")
