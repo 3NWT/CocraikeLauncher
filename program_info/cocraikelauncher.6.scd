@@ -13,15 +13,15 @@ prismlauncher - a launcher and instance manager for Minecraft.
 
 # DESCRIPTION
 
-Prism Launcher is a custom launcher for Minecraft that allows you to easily manage
+Cocraike Launcher is a custom launcher for Minecraft that allows you to easily manage
 multiple installations of Minecraft at once. It also allows you to easily
 install and remove mods by simply dragging and dropping.
-Here are the current features of Prism Launcher.
+Here are the current features of Cocraike Launcher.
 
 # OPTIONS
 
 *-d, --dir*=DIRECTORY
-	Use DIRECTORY as the Prism Launcher root.
+	Use DIRECTORY as the Cocraike Launcher root.
 
 *-l, --launch*=INSTANCE_ID
 	Launch the instance specified by INSTANCE_ID.
@@ -30,7 +30,7 @@ Here are the current features of Prism Launcher.
 	Show the configuration window of the instance specified by INSTANCE_ID.
 
 *--alive*
-	Write a small 'live.check' file after Prism Launcher starts.
+	Write a small 'live.check' file after Cocraike Launcher starts.
 
 *-h, --help*
 	Display help text and exit.
@@ -69,14 +69,14 @@ variables, besides other common Qt variables:
 
 # BUGS
 
-https://github.com/PrismLauncher/PrismLauncher/issues
+https://github.com/CocraikeLauncher/CocraikeLauncher/issues
 
 # RESOURCES
 
-GitHub: https://github.com/PrismLauncher/PrismLauncher
+GitHub: https://github.com/CocraikeLauncher/CocraikeLauncher
 
 Main website: https://prismlauncher.org
 
 # AUTHORS
 
-Prism Launcher Contributors
+Cocraike Launcher Contributors

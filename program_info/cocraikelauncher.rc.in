@@ -15,10 +15,10 @@ BEGIN
         BEGIN
                 BLOCK "000004b0"
                 BEGIN
-                        VALUE "CompanyName", "MultiMC & Prism Launcher Contributors"
-                        VALUE "FileDescription", "Prism Launcher"
+                        VALUE "CompanyName", "MultiMC & Cocraike Launcher Contributors"
+                        VALUE "FileDescription", "Cocraike Launcher"
                         VALUE "FileVersion", "@Launcher_VERSION_NAME4@"
-                        VALUE "ProductName", "Prism Launcher"
+                        VALUE "ProductName", "Cocraike Launcher"
                         VALUE "ProductVersion", "@Launcher_VERSION_NAME4@"
                 END
         END
