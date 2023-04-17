@@ -35,7 +35,7 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.prismlauncher.launcher;
+package org.cocraikelauncher.launcher;
 
 public interface Launcher {
 

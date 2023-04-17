@@ -52,18 +52,18 @@
  *      limitations under the License.
  */
 
-package org.prismlauncher;
+package org.cocraikelauncher;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
-import org.prismlauncher.exception.ParseException;
-import org.prismlauncher.launcher.Launcher;
-import org.prismlauncher.launcher.impl.StandardLauncher;
-import org.prismlauncher.launcher.impl.legacy.LegacyLauncher;
-import org.prismlauncher.utils.Parameters;
-import org.prismlauncher.utils.logging.Log;
+import org.cocraikelauncher.exception.ParseException;
+import org.cocraikelauncher.launcher.Launcher;
+import org.cocraikelauncher.launcher.impl.StandardLauncher;
+import org.cocraikelauncher.launcher.impl.legacy.LegacyLauncher;
+import org.cocraikelauncher.utils.Parameters;
+import org.cocraikelauncher.utils.logging.Log;
 
 public final class EntryPoint {
 
