@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLocalPeer.a CMakeFiles/LocalPeer.dir/LocalPeer_autogen/mocs_compilation.cpp.o CMakeFiles/LocalPeer.dir/src/LocalPeer.cpp.o CMakeFiles/LocalPeer.dir/src/LockedFile.cpp.o CMakeFiles/LocalPeer.dir/src/LockedFile_unix.cpp.o
+/usr/bin/ranlib libLocalPeer.a

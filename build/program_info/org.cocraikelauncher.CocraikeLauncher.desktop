@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Cocraike Launcher
+Comment=A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once.
+Type=Application
+Terminal=false
+Exec=cocraikelauncher
+StartupNotify=true
+Icon=org.cocraikelauncher.CocraikeLauncher
+Categories=Game;ActionGame;AdventureGame;Simulation;
+Keywords=game;minecraft;launcher;mc;multimc;polymc;
+StartupWMClass=CocraikeLauncher
+MimeType=application/zip;application/x-modrinth-modpack+zip

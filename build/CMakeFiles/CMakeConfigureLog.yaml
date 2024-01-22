@@ -1,0 +1,866 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.6.11_1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/erdem/CocraikeLauncher/build/CMakeFiles/3.27.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/erdem/CocraikeLauncher/build/CMakeFiles/3.27.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-D0Fpfz"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-D0Fpfz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-D0Fpfz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c33e5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c33e5.dir/build.make CMakeFiles/cmTC_c33e5.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-D0Fpfz'
+        Building C object CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-unknown-linux-gnu
+        Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c,c++,objc,obj-c++,fortran,lto,go,ada
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c33e5.dir/'
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/cc1 -quiet -v /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c33e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc6rzbqa.s
+        GNU C17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../x86_64-unknown-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include
+         /usr/local/include
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: ca066fea7fe9f603c70641b4432859fb
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c33e5.dir/'
+         as -v --64 -o CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o /tmp/cc6rzbqa.s
+        GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_c33e5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c33e5.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o -o cmTC_c33e5 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c,c++,objc,obj-c++,fortran,lto,go,ada
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (GCC) 
+        COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c33e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c33e5.'
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/collect2 -plugin /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1jSkVV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c33e5 /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c33e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c33e5.'
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-D0Fpfz'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include]
+          add: [/usr/local/include]
+          add: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include] ==> [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed] ==> [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include;/usr/local/include;/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-D0Fpfz']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c33e5/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_c33e5.dir/build.make CMakeFiles/cmTC_c33e5.dir/build]
+        ignore line: [make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-D0Fpfz']
+        ignore line: [Building C object CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c c++ objc obj-c++ fortran lto go ada]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c33e5.dir/']
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/cc1 -quiet -v /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c33e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc6rzbqa.s]
+        ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: ca066fea7fe9f603c70641b4432859fb]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c33e5.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o /tmp/cc6rzbqa.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_c33e5]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c33e5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o -o cmTC_c33e5 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c c++ objc obj-c++ fortran lto go ada]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c33e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c33e5.']
+        link line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/collect2 -plugin /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1jSkVV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c33e5 /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc1jSkVV.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c33e5] ==> ignore
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o]
+          arg [-L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0] ==> dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0]
+          arg [-L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../..]
+          arg [CMakeFiles/cmTC_c33e5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0] ==> [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0]
+        collapse library dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../..] ==> [/usr/lib64]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o;/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0;/usr/lib64;/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ATcWUu"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ATcWUu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ATcWUu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43cf4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_43cf4.dir/build.make CMakeFiles/cmTC_43cf4.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ATcWUu'
+        Building CXX object CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-unknown-linux-gnu
+        Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c,c++,objc,obj-c++,fortran,lto,go,ada
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43cf4.dir/'
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_43cf4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccNo0amP.s
+        GNU C++17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../x86_64-unknown-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-unknown-linux-gnu
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include
+         /usr/local/include
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed
+         /usr/include
+        End of search list.
+        GNU C++17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 78030b10ed02211b0a748bd64549ec34
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43cf4.dir/'
+         as -v --64 -o CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNo0amP.s
+        GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_43cf4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43cf4.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_43cf4 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c,c++,objc,obj-c++,fortran,lto,go,ada
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (GCC) 
+        COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43cf4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_43cf4.'
+         /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/collect2 -plugin /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGxrL4J.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_43cf4 /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43cf4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_43cf4.'
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ATcWUu'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+          add: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-unknown-linux-gnu]
+          add: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+          add: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include]
+          add: [/usr/local/include]
+          add: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0] ==> [/usr/include/c++/12.2.0]
+        collapse include dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-unknown-linux-gnu] ==> [/usr/include/c++/12.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward] ==> [/usr/include/c++/12.2.0/backward]
+        collapse include dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include] ==> [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed] ==> [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/12.2.0;/usr/include/c++/12.2.0/x86_64-unknown-linux-gnu;/usr/include/c++/12.2.0/backward;/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include;/usr/local/include;/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ATcWUu']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43cf4/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_43cf4.dir/build.make CMakeFiles/cmTC_43cf4.dir/build]
+        ignore line: [make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ATcWUu']
+        ignore line: [Building CXX object CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c c++ objc obj-c++ fortran lto go ada]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43cf4.dir/']
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_43cf4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccNo0amP.s]
+        ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 78030b10ed02211b0a748bd64549ec34]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43cf4.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNo0amP.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_43cf4]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43cf4.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_43cf4 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: /builddir/gcc-12.2.0/configure --build=x86_64-unknown-linux-gnu --enable-gnu-unique-object --enable-vtable-verify --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --libexecdir=/usr/lib64 --libdir=/usr/lib64 --enable-threads=posix --enable-__cxa_atexit --disable-multilib --with-system-zlib --enable-shared --enable-lto --enable-plugins --enable-linker-build-id --disable-werror --disable-nls --enable-default-pie --enable-default-ssp --enable-checking=release --disable-libstdcxx-pch --with-isl --with-linker-hash-style=gnu --disable-sjlj-exceptions --disable-target-libiberty --disable-libssp --enable-languages=c c++ objc obj-c++ fortran lto go ada]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43cf4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_43cf4.']
+        link line: [ /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/collect2 -plugin /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGxrL4J.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_43cf4 /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o /usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccGxrL4J.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_43cf4] ==> ignore
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o]
+          arg [-L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0] ==> dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0]
+          arg [-L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../..]
+          arg [CMakeFiles/cmTC_43cf4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o]
+          arg [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o] ==> obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0] ==> [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0]
+        collapse library dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/../../..] ==> [/usr/lib64]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtbeginS.o;/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/crtendS.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0;/usr/lib64;/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/lib64/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:121 (include)"
+      - "CMakeLists.txt:239 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-s1bzlP"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-s1bzlP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-s1bzlP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c55e0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c55e0.dir/build.make CMakeFiles/cmTC_c55e0.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-s1bzlP'
+        Building C object CMakeFiles/cmTC_c55e0.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -o CMakeFiles/cmTC_c55e0.dir/src.c.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-s1bzlP/src.c
+        Linking C executable cmTC_c55e0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c55e0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c55e0.dir/src.c.o -o cmTC_c55e0 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-s1bzlP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/lib64/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake:51 (include)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:166 (find_package)"
+      - "CMakeLists.txt:239 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-FZItl5"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-FZItl5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-FZItl5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c021/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1c021.dir/build.make CMakeFiles/cmTC_1c021.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-FZItl5'
+        Building CXX object CMakeFiles/cmTC_1c021.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  -std=gnu++17 -o CMakeFiles/cmTC_1c021.dir/src.cxx.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-FZItl5/src.cxx
+        Linking CXX executable cmTC_1c021
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c021.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  CMakeFiles/cmTC_1c021.dir/src.cxx.o -o cmTC_1c021 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-FZItl5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake:238 (check_compiler_flag)"
+      - "/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "libraries/libnbtplusplus/CMakeLists.txt:62 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-CZ9VjB"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-CZ9VjB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-CZ9VjB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4527/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c4527.dir/build.make CMakeFiles/cmTC_c4527.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-CZ9VjB'
+        Building CXX object CMakeFiles/cmTC_c4527.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  -std=gnu++17   -fvisibility=hidden -o CMakeFiles/cmTC_c4527.dir/src.cxx.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-CZ9VjB/src.cxx
+        Linking CXX executable cmTC_c4527
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4527.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  CMakeFiles/cmTC_c4527.dir/src.cxx.o -o cmTC_c4527 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-CZ9VjB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake:239 (check_compiler_flag)"
+      - "/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "libraries/libnbtplusplus/CMakeLists.txt:62 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-HnBvju"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-HnBvju"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-HnBvju'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a04a1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a04a1.dir/build.make CMakeFiles/cmTC_a04a1.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-HnBvju'
+        Building CXX object CMakeFiles/cmTC_a04a1.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  -std=gnu++17   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_a04a1.dir/src.cxx.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-HnBvju/src.cxx
+        Linking CXX executable cmTC_a04a1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a04a1.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  CMakeFiles/cmTC_a04a1.dir/src.cxx.o -o cmTC_a04a1 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-HnBvju'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "libraries/libnbtplusplus/CMakeLists.txt:62 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d065a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d065a.dir/build.make CMakeFiles/cmTC_d065a.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC'
+        Building CXX object CMakeFiles/cmTC_d065a.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  -std=gnu++17 -o CMakeFiles/cmTC_d065a.dir/src.cxx.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC/src.cxx
+        /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC/src.cxx: In function 'int main()':
+        /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC/src.cxx:2:33: warning: 'int somefunc()' is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                         ~~~~~~~~^~
+        /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        Linking CXX executable cmTC_d065a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d065a.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0  CMakeFiles/cmTC_d065a.dir/src.cxx.o -o cmTC_d065a 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-BA9boC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "libraries/cmark/FindAsan.cmake:36 (check_c_compiler_flag)"
+      - "libraries/cmark/CMakeLists.txt:4 (include)"
+    checks:
+      - "Performing Test HAVE_FLAG_ADDRESS_SANITIZER"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-y4mkkF"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-y4mkkF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_FLAG_ADDRESS_SANITIZER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-y4mkkF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_790ac/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_790ac.dir/build.make CMakeFiles/cmTC_790ac.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-y4mkkF'
+        Building C object CMakeFiles/cmTC_790ac.dir/src.c.o
+        /usr/bin/cc -DHAVE_FLAG_ADDRESS_SANITIZER  -Werror -faddress-sanitizer -std=gnu11   -faddress-sanitizer -o CMakeFiles/cmTC_790ac.dir/src.c.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-y4mkkF/src.c
+        cc: error: unrecognized command-line option '-faddress-sanitizer'
+        cc: error: unrecognized command-line option '-faddress-sanitizer'
+        make[1]: *** [CMakeFiles/cmTC_790ac.dir/build.make:78: CMakeFiles/cmTC_790ac.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-y4mkkF'
+        make: *** [Makefile:127: cmTC_790ac/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "libraries/cmark/FindAsan.cmake:39 (check_c_compiler_flag)"
+      - "libraries/cmark/CMakeLists.txt:4 (include)"
+    checks:
+      - "Performing Test HAVE_FLAG_SANITIZE_ADDRESS"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-PZeeWP"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-PZeeWP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_FLAG_SANITIZE_ADDRESS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-PZeeWP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_710ec/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_710ec.dir/build.make CMakeFiles/cmTC_710ec.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-PZeeWP'
+        Building C object CMakeFiles/cmTC_710ec.dir/src.c.o
+        /usr/bin/cc -DHAVE_FLAG_SANITIZE_ADDRESS  -Werror -fsanitize=address -std=gnu11   -fsanitize=address -o CMakeFiles/cmTC_710ec.dir/src.c.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-PZeeWP/src.c
+        Linking C executable cmTC_710ec
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_710ec.dir/link.txt --verbose=1
+        /usr/bin/cc  -Werror -fsanitize=address CMakeFiles/cmTC_710ec.dir/src.c.o -o cmTC_710ec 
+        /usr/bin/ld: cannot find libasan_preinit.o: No such file or directory
+        /usr/bin/ld: cannot find -lasan: No such file or directory
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_710ec.dir/build.make:99: cmTC_710ec] Error 1
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-PZeeWP'
+        make: *** [Makefile:127: cmTC_710ec/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "libraries/cmark/src/CMakeLists.txt:185 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ie8IeH"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ie8IeH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ie8IeH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb4a9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bb4a9.dir/build.make CMakeFiles/cmTC_bb4a9.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ie8IeH'
+        Building C object CMakeFiles/cmTC_bb4a9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_bb4a9.dir/CheckIncludeFile.c.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ie8IeH/CheckIncludeFile.c
+        Linking C executable cmTC_bb4a9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb4a9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_bb4a9.dir/CheckIncludeFile.c.o -o cmTC_bb4a9 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-ie8IeH'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libraries/cmark/src/CMakeLists.txt:186 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAVE___BUILTIN_EXPECT"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-M8EJVO"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-M8EJVO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE___BUILTIN_EXPECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-M8EJVO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5e8bd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5e8bd.dir/build.make CMakeFiles/cmTC_5e8bd.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-M8EJVO'
+        Building C object CMakeFiles/cmTC_5e8bd.dir/src.c.o
+        /usr/bin/cc -DHAVE___BUILTIN_EXPECT  -std=c99 -o CMakeFiles/cmTC_5e8bd.dir/src.c.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-M8EJVO/src.c
+        Linking C executable cmTC_5e8bd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e8bd.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5e8bd.dir/src.c.o -o cmTC_5e8bd 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-M8EJVO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libraries/cmark/src/CMakeLists.txt:189 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAVE___ATTRIBUTE__"
+    directories:
+      source: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-1QNXEY"
+      binary: "/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-1QNXEY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/;/home/erdem/CocraikeLauncher/cmake/;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin;/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE___ATTRIBUTE__"
+      cached: true
+      stdout: |
+        Change Dir: '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-1QNXEY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_91a05/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_91a05.dir/build.make CMakeFiles/cmTC_91a05.dir/build
+        make[1]: Entering directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-1QNXEY'
+        Building C object CMakeFiles/cmTC_91a05.dir/src.c.o
+        /usr/bin/cc -DHAVE___ATTRIBUTE__  -std=c99 -o CMakeFiles/cmTC_91a05.dir/src.c.o -c /home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-1QNXEY/src.c
+        Linking C executable cmTC_91a05
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91a05.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_91a05.dir/src.c.o -o cmTC_91a05 
+        make[1]: Leaving directory '/home/erdem/CocraikeLauncher/build/CMakeFiles/CMakeScratch/TryCompile-1QNXEY'
+        
+      exitCode: 0
+...

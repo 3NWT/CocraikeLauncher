@@ -1,0 +1,112 @@
+{
+	"BUILD_DIR" : "/home/erdem/CocraikeLauncher/build/libraries/qdcss/qdcss_autogen",
+	"CMAKE_BINARY_DIR" : "/home/erdem/CocraikeLauncher/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/erdem/CocraikeLauncher/build/libraries/qdcss",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/erdem/CocraikeLauncher/libraries/qdcss",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/erdem/CocraikeLauncher/libraries/qdcss/CMakeLists.txt",
+		"/usr/lib64/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/usr/lib64/cmake/Qt6/Qt6Config.cmake",
+		"/usr/lib64/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/Qt6Targets.cmake",
+		"/usr/lib64/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/usr/lib64/cmake/Qt6/QtFeature.cmake",
+		"/usr/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/usr/lib64/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/usr/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib64/cmake/Qt6/Qt6Dependencies.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/erdem/CocraikeLauncher",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/erdem/CocraikeLauncher/libraries/qdcss/include/qdcss.h",
+			"Mu",
+			"6YEA5652QU/moc_qdcss.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/erdem/CocraikeLauncher/build/libraries/qdcss/qdcss_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/qdcss/qdcss_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE5COMPAT_LIB", "QT_CORE_LIB", "QT_NO_DEBUG" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/erdem/CocraikeLauncher/build/libraries/qdcss",
+		"/home/erdem/CocraikeLauncher/libraries/qdcss",
+		"/home/erdem/CocraikeLauncher/libraries/qdcss/include",
+		"/usr/include/qt6/QtCore",
+		"/usr/include/qt6",
+		"/usr/lib64/qt6/mkspecs/linux-g++",
+		"/usr/include/qt6/QtCore5Compat",
+		"/usr/include/c++/12.2.0",
+		"/usr/include/c++/12.2.0/x86_64-unknown-linux-gnu",
+		"/usr/include/c++/12.2.0/backward",
+		"/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include",
+		"/usr/local/include",
+		"/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/qdcss/qdcss_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/qdcss/CMakeFiles/qdcss_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib64/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 6,
+	"SETTINGS_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/qdcss/CMakeFiles/qdcss_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/erdem/CocraikeLauncher/libraries/qdcss/src/qdcss.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

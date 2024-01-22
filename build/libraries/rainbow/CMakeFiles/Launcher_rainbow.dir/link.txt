@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLauncher_rainbow.a CMakeFiles/Launcher_rainbow.dir/Launcher_rainbow_autogen/mocs_compilation.cpp.o CMakeFiles/Launcher_rainbow.dir/src/rainbow.cpp.o
+/usr/bin/ranlib libLauncher_rainbow.a

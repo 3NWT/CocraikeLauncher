@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -pedantic -fstack-protector-strong --param=ssp-buffer-size=4  -DQT_NO_DEPRECATED_WARNINGS=Y -DQT_DISABLE_DEPRECATED_BEFORE=0x050C00 -DTOML_ENABLE_FLOAT16=0 -O2 -D_FORTIFY_SOURCE=2 -O3 -DNDEBUG CMakeFiles/cmark_exe.dir/cmark_exe_autogen/mocs_compilation.cpp.o CMakeFiles/cmark_exe.dir/main.c.o -o ../../../cmark  libcmark.a 

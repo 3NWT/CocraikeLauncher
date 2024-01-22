@@ -1,0 +1,9 @@
+/usr/share/applications/org.cocraikelauncher.CocraikeLauncher.desktop
+/usr/share/metainfo/org.cocraikelauncher.CocraikeLauncher.metainfo.xml
+/usr/share/icons/hicolor/scalable/apps/org.cocraikelauncher.CocraikeLauncher.svg
+/usr/share/mime/packages/modrinth-mrpack-mime.xml
+/usr/share/man/man6/cocraikelauncher.6
+/usr/share/cocraikelauncher/NewLaunch.jar
+/usr/share/cocraikelauncher/JavaCheck.jar
+/usr/share/qlogging-categories6/cocraikelauncher.categories
+/usr/bin/cocraikelauncher

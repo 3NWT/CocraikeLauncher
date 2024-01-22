@@ -1,6 +1,6 @@
 cmake -S . -B build -G Ninja \
    -DCMAKE_BUILD_TYPE=Release \
-   -DCMAKE_INSTALL_PREFIX="/usr" \ 
+   -DCMAKE_INSTALL_PREFIX="/usr/bin" \ 
 #   -DENABLE_LTO=ON 
 #  -DLauncher_QT_VERSION_MAJOR="6" 
 

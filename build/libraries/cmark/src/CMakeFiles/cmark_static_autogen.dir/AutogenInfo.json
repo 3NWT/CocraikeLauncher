@@ -1,0 +1,244 @@
+{
+	"BUILD_DIR" : "/home/erdem/CocraikeLauncher/build/libraries/cmark/src/cmark_static_autogen",
+	"CMAKE_BINARY_DIR" : "/home/erdem/CocraikeLauncher/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/erdem/CocraikeLauncher/build/libraries/cmark/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/erdem/CocraikeLauncher/libraries/cmark/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/erdem/CocraikeLauncher/libraries/cmark/src/CMakeLists.txt",
+		"/home/erdem/CocraikeLauncher/libraries/cmark/src/cmark_version.h.in",
+		"/usr/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
+		"/usr/share/cmake-3.27/Modules/GenerateExportHeader.cmake",
+		"/usr/share/cmake-3.27/Modules/CheckCompilerFlag.cmake",
+		"/usr/share/cmake-3.27/Modules/CheckSourceCompiles.cmake",
+		"/usr/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake",
+		"/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake",
+		"/usr/share/cmake-3.27/Modules/exportheader.cmake.in",
+		"/usr/share/cmake-3.27/Modules/InstallRequiredSystemLibraries.cmake",
+		"/home/erdem/CocraikeLauncher/libraries/cmark/src/libcmark.pc.in",
+		"/usr/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake",
+		"/usr/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake",
+		"/home/erdem/CocraikeLauncher/libraries/cmark/src/cmarkConfig.cmake.in",
+		"/usr/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in",
+		"/usr/share/cmake-3.27/Modules/CheckIncludeFile.cmake",
+		"/usr/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake",
+		"/home/erdem/CocraikeLauncher/libraries/cmark/src/config.h.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/erdem/CocraikeLauncher",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/buffer.h",
+			"Mu",
+			"EWIEGA46WW/moc_buffer.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/chunk.h",
+			"Mu",
+			"EWIEGA46WW/moc_chunk.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/cmark.h",
+			"Mu",
+			"EWIEGA46WW/moc_cmark.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/cmark_ctype.h",
+			"Mu",
+			"EWIEGA46WW/moc_cmark_ctype.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/houdini.h",
+			"Mu",
+			"EWIEGA46WW/moc_houdini.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/inlines.h",
+			"Mu",
+			"EWIEGA46WW/moc_inlines.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/iterator.h",
+			"Mu",
+			"EWIEGA46WW/moc_iterator.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/node.h",
+			"Mu",
+			"EWIEGA46WW/moc_node.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/parser.h",
+			"Mu",
+			"EWIEGA46WW/moc_parser.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/references.h",
+			"Mu",
+			"EWIEGA46WW/moc_references.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/render.h",
+			"Mu",
+			"EWIEGA46WW/moc_render.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/scanners.h",
+			"Mu",
+			"EWIEGA46WW/moc_scanners.cpp",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/utf8.h",
+			"Mu",
+			"EWIEGA46WW/moc_utf8.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/erdem/CocraikeLauncher/build/libraries/cmark/src/cmark_static_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/cmark/src/cmark_static_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/erdem/CocraikeLauncher/build/libraries/cmark/src",
+		"/home/erdem/CocraikeLauncher/libraries/cmark/src",
+		"/usr/include/c++/12.2.0",
+		"/usr/include/c++/12.2.0/x86_64-unknown-linux-gnu",
+		"/usr/include/c++/12.2.0/backward",
+		"/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include",
+		"/usr/local/include",
+		"/usr/lib64/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/cmark/src/cmark_static_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/cmark/src/CMakeFiles/cmark_static_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib64/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 6,
+	"SETTINGS_FILE" : "/home/erdem/CocraikeLauncher/build/libraries/cmark/src/CMakeFiles/cmark_static_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/blocks.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/buffer.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/cmark.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/cmark_ctype.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/commonmark.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/houdini_href_e.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/houdini_html_e.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/houdini_html_u.c",
+			"Mu",
+			null
+		],
+		[ "/home/erdem/CocraikeLauncher/libraries/cmark/src/html.c", "Mu", null ],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/inlines.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/iterator.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/latex.c",
+			"Mu",
+			null
+		],
+		[ "/home/erdem/CocraikeLauncher/libraries/cmark/src/man.c", "Mu", null ],
+		[ "/home/erdem/CocraikeLauncher/libraries/cmark/src/node.c", "Mu", null ],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/references.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/render.c",
+			"Mu",
+			null
+		],
+		[
+			"/home/erdem/CocraikeLauncher/libraries/cmark/src/scanners.c",
+			"Mu",
+			null
+		],
+		[ "/home/erdem/CocraikeLauncher/libraries/cmark/src/utf8.c", "Mu", null ],
+		[ "/home/erdem/CocraikeLauncher/libraries/cmark/src/xml.c", "Mu", null ]
+	],
+	"VERBOSITY" : 0
+}

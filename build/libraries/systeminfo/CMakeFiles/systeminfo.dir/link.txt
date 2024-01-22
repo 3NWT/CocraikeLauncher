@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsysteminfo.a CMakeFiles/systeminfo.dir/systeminfo_autogen/mocs_compilation.cpp.o CMakeFiles/systeminfo.dir/src/distroutils.cpp.o CMakeFiles/systeminfo.dir/src/sys_unix.cpp.o
+/usr/bin/ranlib libsysteminfo.a

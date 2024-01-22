@@ -1,0 +1,2 @@
+/usr/bin/ar qc libKatabasis.a CMakeFiles/Katabasis.dir/Katabasis_autogen/mocs_compilation.cpp.o CMakeFiles/Katabasis.dir/src/DeviceFlow.cpp.o CMakeFiles/Katabasis.dir/src/JsonResponse.cpp.o CMakeFiles/Katabasis.dir/src/PollServer.cpp.o CMakeFiles/Katabasis.dir/src/Reply.cpp.o CMakeFiles/Katabasis.dir/KatabasisLogging.cpp.o
+/usr/bin/ranlib libKatabasis.a

@@ -1,0 +1,13 @@
+set(CMAKE_Java_COMPILER "/usr/lib/jvm/openjdk17/bin/javac")
+set(CMAKE_Java_COMPILER_ARG1 "")
+set(CMAKE_Java_RUNTIME  "/usr/bin/java")
+set(CMAKE_Java_ARCHIVE  "/usr/lib/jvm/default-jdk/bin/jar")
+set(CMAKE_Java_COMPILER_LOADED 1)
+
+set(CMAKE_Java_SOURCE_FILE_EXTENSIONS java)
+set(CMAKE_Java_LINKER_PREFERENCE 40)
+set(CMAKE_Java_OUTPUT_EXTENSION .class)
+set(CMAKE_Java_OUTPUT_EXTENSION_REPLACE 1)
+set(CMAKE_STATIC_LIBRARY_PREFIX_Java "")
+set(CMAKE_STATIC_LIBRARY_SUFFIX_Java ".jar")
+set(CMAKE_Java_COMPILER_ENV_VAR "JAVA_COMPILER")

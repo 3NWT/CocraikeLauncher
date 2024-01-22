@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLauncher_murmur2.a CMakeFiles/Launcher_murmur2.dir/Launcher_murmur2_autogen/mocs_compilation.cpp.o CMakeFiles/Launcher_murmur2.dir/src/MurmurHash2.cpp.o
+/usr/bin/ranlib libLauncher_murmur2.a

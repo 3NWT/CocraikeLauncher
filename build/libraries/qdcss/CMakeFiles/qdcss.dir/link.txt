@@ -1,0 +1,2 @@
+/usr/bin/ar qc libqdcss.a CMakeFiles/qdcss.dir/qdcss_autogen/mocs_compilation.cpp.o CMakeFiles/qdcss.dir/src/qdcss.cpp.o
+/usr/bin/ranlib libqdcss.a

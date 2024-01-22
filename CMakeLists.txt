@@ -337,8 +337,6 @@ elseif(UNIX)
     # install as bundle with no dependencies included
     set(INSTALL_BUNDLE "nodeps")
 
-    # Set RPATH
-    SET(Launcher_BINARY_RPATH "$ORIGIN/")
 
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${Launcher_Desktop} DESTINATION ${KDE_INSTALL_APPDIR})
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${Launcher_MetaInfo} DESTINATION ${KDE_INSTALL_METAINFODIR})

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgamemode.a CMakeFiles/gamemode.dir/gamemode_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libgamemode.a
